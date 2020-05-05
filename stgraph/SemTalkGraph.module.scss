@@ -1,0 +1,23 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+.semTalkGraph {
+  display: flex;
+  .iframeHost {
+     //  height: 600px;
+      flex: 3;
+ }
+ .detailsPanel {
+     flex: 1;
+     min-width: 30%;
+    padding: 20px;
+ }
+ .container {
+    max-width: 2000px;
+    margin: 0px auto;
+  }
+
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+}
